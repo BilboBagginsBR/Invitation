@@ -1,5 +1,6 @@
 .header {
 	width: 100%;
+	position: relative;
 	/*height: 1195px;*/
 	padding-bottom: 410px;
 	padding-top: 92px;
@@ -163,7 +164,7 @@
 
 .scroll-bg::before {
 	content: "";
-	width: 57px;
+	width: 73px;
 	height: 174px;
 	display: block;
 	position: absolute;
@@ -176,7 +177,7 @@
 
 .scroll-bg::after {
 	content: "";
-	width: 57px;
+	width: 73px;
 	height: 174px;
 	display: block;
 	position: absolute;
@@ -192,4 +193,29 @@
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 24px;
+}
+
+.link-circle {
+	bottom: 1%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 81px;
+	height: 81px;
+	background-color: rgba(235, 82, 56, .2);
+	border-radius: 50px;
+	position: absolute;
+
+}
+
+.link-circle-inner {
+	position: absolute;
+	left: 13px;
+	top: 13px;
+	width: 55px;
+	height: 55px;
+	border-radius: 50px;
+	background-color: #eb5238;
+	background-image: url(../img/icons/arrow-down.svg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
